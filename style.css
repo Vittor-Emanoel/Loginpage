@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0 ; 
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    margin: 0 ; 
+    font-size: 100%;
+}
+
+.main-login {
+    width: 100vw;
+    Height: 100vh;
+    background:rgb(18, 18, 20);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.left-login > h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 35px;
+    color: #FFF2E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+
+}
+.left-login > h2 {
+    font-family: 'Righteous', cursive;
+    color: #BA68C8;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+.left-login > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vh;
+    height: 50%;
+
+}
+
+.right-login {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(18, 18, 20);
+    color: rgb(168, 168, 179);
+    border-radius: 25px;
+    box-shadow: 0px 7px 15px #00000056;
+    
+}
+.card-login > h1 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 800;
+    color: #BA68C8;
+    margin: 10px;
+   
+}
+.text-field{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.text-field > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px ;
+    background: rgb(6, 6, 7);
+    color: #FFF2E7;
+    font-size: 12pt;
+    box-shadow: 0px 10px 15px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.text-field > label {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF2E7;
+    padding: 10px 35px;
+    flex-direction: column;  
+}
+.btn-login {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 800;
+    margin: 25px;
+    padding: 15px 15px;
+    color: rgb(18, 18, 20);
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background-color: #BA68C8;
+    cursor: pointer;
+}
